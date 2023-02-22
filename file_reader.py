@@ -1,4 +1,3 @@
-def read_file(C:\Users\panit\OneDrive - University of Central Missouri\Desktop\inclassassignment\data.txt):
-    with open(C:\Users\panit\OneDrive - University of Central Missouri\Desktop\inclassassignment\data.txt.txt, 'r') as f:
-        content = f.read()
-    return content
+def read_file(data.txt):
+   with open(data.txt, 'r') as f:
+        return f.read().strip()
